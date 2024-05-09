@@ -173,7 +173,7 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "Script Hub Beta",
+	Name = "Script Hub V3 Beta",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/scripthubv3beta/main/scripthubv3beta1", true))()
   	end    
