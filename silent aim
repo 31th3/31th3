@@ -1,0 +1,25 @@
+game.StarterGui:SetCore("SendNotification", {
+                        Title = "By made 31th3",
+                        Text = "Done Silent Aim😎",
+                        Duration = 10,
+                        Button1 = "Oki!"
+                    })
+getgenv().Silent = {
+    Settings = {
+        Enabled = true,
+        AimPart = "HumanoidRootPart",
+        Prediction = 0.170113,
+        WallCheck = true,
+        Visualize = true,
+        AutoPrediction = false,
+    },
+    FOV = {
+        Enabled = false,
+        Size = 39,
+        Filled = false,
+        Thickness = 0.66,
+        Transparency = 0.9,
+        Color = Color3.fromRGB(255, 0, 0), -- Black Color
+    },
+}
+loadstring(game:HttpGet("https://rentry.co/vsbyon63/raw", true))()
