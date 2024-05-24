@@ -1,5 +1,5 @@
 game.StarterGui:SetCore("SendNotification", {
-                        Title = "By made 31th3",
+                        Title = "By 31th3",
                         Text = "Done Silent Aim😎",
                         Duration = 10,
                         Button1 = "Oki!"
@@ -15,7 +15,7 @@ getgenv().Silent = {
     },
     FOV = {
         Enabled = false,
-        Size = 39,
+        Size = 43,
         Filled = false,
         Thickness = 0.66,
         Transparency = 0.9,
