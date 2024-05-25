@@ -1,3 +1,9 @@
+game.StarterGui:SetCore("SendNotification", {
+                        Title = "By 31th3",
+                        Text = "Done Esp 👍😎",
+                        Duration = 10,
+                        Button1 = "Oki!"
+                    })
 local FillColor = Color3.fromRGB(248, 217, 109)
 local DepthMode = "AlwaysOnTop"
 local FillTransparency = 0.6
