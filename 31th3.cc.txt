@@ -1,3 +1,9 @@
+game.StarterGui:SetCore("SendNotification", {
+                        Title = "31th3.cc",
+                        Text = "Thanks you use script ♥️.",
+                        Duration = 10,
+                        Button1 = "Oki!"
+                    })
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bobbbb-b/nyulabutlowbudget/main/Lib%20(1).txt"))()
 
 -- Gui to Lua
@@ -38,7 +44,7 @@ library:ToggleMenu()
 end)
 
 UITextSizeConstraint.Parent = TextButton
-UITextSizeConstraint.MaxTextSize = 30
+UITextSizeConstraint.MaxTextSize = 25
 
 local player = game.Players.LocalPlayer
 
@@ -89,7 +95,7 @@ local visu = woah:Tab("Visualization")
 local braeuh = woah:Tab("Configs")
 
 local Haka = gaey:MSector("Mods", "Left")
-local Lalaka = Haka:Tab("Local")
+local Lalaka = Haka:Tab("Speed")
 local Halaka = Haka:Tab("Anti")
 local Galala = Haka:Tab("CSync")
 local Bakala = Haka:Tab("Fun")
@@ -143,13 +149,13 @@ local Jaja = misc:MSector("Target Lock", "Left")
 local GAGEJ = Jaja:Tab("Main")
 
 
-GAGEJ:Element("Button", "Load Target", {}, function() 
+GAGEJ:Element("Button", "Load Lock", {}, function() 
 getgenv().getgenv().Settings = {
     NyulaRemake = {
         Enabled = true,
         PREDICTION = 0.14284,
         JUMPPREDICTION = 0.1184,
-        DOT = true,
+        DOT = false,
         AIRSHOT = false,
         NOTIF = true,
         AUTOPRED = false,
@@ -619,4 +625,8 @@ end)
 
 mamamored:Element("Dropdown", "Type", {options = {"None", "Delta Time", "Recalculator", "No Y Velocity"}}, function(tbjol)
 print(tbjol.Dropdown)
+end)
+
+Halaka:Element("Button", "Anti", {}, function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AntiLockV1/31th3/main/AntiLockV1.lua", true))()
 end)
