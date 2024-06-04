@@ -5,23 +5,23 @@ local Window = Fluent:CreateWindow({
     Title = "31th3 Hub | Blox Fruits",
     SubTitle = "Beta Version",
     TabWidth = 170,
-    Size = UDim2.fromOffset(485, 375),
+    Size = UDim2.fromOffset(495, 385),
     Acrylic = true,
     Theme = "Rose",
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
-    Main = Window:AddTab({ Title = "Main", Icon = "🗡️" }),
-    Stats = Window:AddTab({ Title = "Stats", Icon = "📜" }),
-    Player = Window:AddTab({ Title = "Player", Icon = "⚔️" }),
-    Teleport = Window:AddTab({ Title = "Island", Icon = "🏝️" }),
+    Main = Window:AddTab({ Title = "Main", Icon = "" }),
+    Stats = Window:AddTab({ Title = "Stats", Icon = "" }),
+    Player = Window:AddTab({ Title = "Player", Icon = "" }),
+    Teleport = Window:AddTab({ Title = "Island", Icon = "" }),
     Fruit = Window:AddTab({ Title = "Fruit", Icon = "" }),
-    Raid = Window:AddTab({ Title = "Raid", Icon = "🔪" }),
-    Race = Window:AddTab({ Title = " Race V4", Icon = "✴️" }),
-    Shop = Window:AddTab({ Title = "Shop", Icon = "🛒" }),
-	Misc = Window:AddTab({ Title = "Misc", Icon = "💾" }),
-    Hop = Window:AddTab({ Title = "Hop", Icon = "🔌" }),
-    Setting = Window:AddTab({ Title = "Setting", Icon = "⚙️" }),
+    Raid = Window:AddTab({ Title = "Raid", Icon = "" }),
+    Race = Window:AddTab({ Title = " Race V4", Icon = "" }),
+    Shop = Window:AddTab({ Title = "Shop", Icon = "" }),
+	Misc = Window:AddTab({ Title = "Misc", Icon = "" }),
+    Hop = Window:AddTab({ Title = "Hop", Icon = "" }),
+    Setting = Window:AddTab({ Title = "Setting", Icon = "" }),
 }
 local Options = Fluent.Options
 do
@@ -5093,7 +5093,7 @@ Tabs.Teleport:AddButton({
 
 
 Tabs.Teleport:AddButton({
-    Title = "Sea 3a",
+    Title = "Sea 3",
     Description = "",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("TravelZou")
