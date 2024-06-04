@@ -7,7 +7,7 @@ local Window = Fluent:CreateWindow({
     TabWidth = 170,
     Size = UDim2.fromOffset(495, 385),
     Acrylic = true,
-    Theme = "Rose",
+    Theme = "Purple Flower",
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
@@ -17,7 +17,7 @@ local Tabs = {
     Teleport = Window:AddTab({ Title = "Island", Icon = "" }),
     Fruit = Window:AddTab({ Title = "Fruit", Icon = "" }),
     Raid = Window:AddTab({ Title = "Raid", Icon = "" }),
-    Race = Window:AddTab({ Title = " Race V4", Icon = "" }),
+    Race = Window:AddTab({ Title = "Race V4", Icon = "" }),
     Shop = Window:AddTab({ Title = "Shop", Icon = "" }),
 	Misc = Window:AddTab({ Title = "Misc", Icon = "" }),
     Hop = Window:AddTab({ Title = "Hop", Icon = "" }),
