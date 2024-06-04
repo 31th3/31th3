@@ -2,10 +2,10 @@ local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 local Window = Fluent:CreateWindow({
-    Title = "31th3 Hub | Blox Fruit",
-    SubTitle = "Beta Version",
+    Title = "31th3 Hub | Blox Fruits",
+    SubTitle = "Beta",
     TabWidth = 160,
-    Size = UDim2.fromOffset(430, 350),
+    Size = UDim2.fromOffset(450, 370),
     Acrylic = true,
     Theme = "Rose",
     MinimizeKey = Enum.KeyCode.End
@@ -17,7 +17,7 @@ local Tabs = {
     Teleport = Window:AddTab({ Title = "Island", Icon = "" }),
     Fruit = Window:AddTab({ Title = "Fruit", Icon = "" }),
     Raid = Window:AddTab({ Title = "Raid", Icon = "" }),
-    Race = Window:AddTab({ Title = "Race V4", Icon = "" }),
+    Race = Window:AddTab({ Title = "V4", Icon = "" }),
     Shop = Window:AddTab({ Title = "Shop", Icon = "" }),
 	Misc = Window:AddTab({ Title = "Misc", Icon = "" }),
     Hop = Window:AddTab({ Title = "Hop", Icon = "" }),
@@ -2454,7 +2454,7 @@ ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 ImageButton.Size = UDim2.new(0, 50, 0, 50)
 ImageButton.Draggable = true
-ImageButton.Image = "rbxassetid://16137232629"
+ImageButton.Image = "rbxassetid://5399142179"
 ImageButton.MouseButton1Down:connect(function()
     game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.End,false,game)
 end)
@@ -6679,7 +6679,7 @@ Tabs.Misc:AddButton({
 		for k, v in pairs(cac) do
 			if ListHuhu[v] and game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Buy" .. v, true) == 1 then
 				local huhu = Instance.new("ImageLabel", MeleeG)
-				huhu.Image = "rbxassetid://16137232629"
+				huhu.Image = "rbxassetid://5399142179"
 				huhu.ImageRectSize = Vector2.new(100, 100)
 				huhu.ImageRectOffset = ListHuhu[v] * 100
 			end
@@ -6766,7 +6766,7 @@ function NoFog()
 end
 
 if First_Sea or Second_Sea then
-    local Mastery = Tabs.Hop:AddSection("Sea 3 làm ơn!!!")
+    local Mastery = Tabs.Hop:AddSection("Sea 3 plss")
 end
 
 if Third_Sea then
@@ -6785,7 +6785,7 @@ spawn(function()
         elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=16137232629" then
             Hop()
             Fluent:Notify({
-                Title = "YTB: Zuesz Hub",
+                Title = "31th3",
                 Content = "Turn Off Find Full Moon...",
                 SubContent = "", -- Optional
                 Duration = 5 -- Set to nil to make the notification not disappear
@@ -6793,7 +6793,7 @@ spawn(function()
         elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=16137232629" then
             Hop()
             Fluent:Notify({
-                Title = "YTB: Zuesz Hub",
+                Title = "31th3",
                 Content = "Hop...",
                 SubContent = "", -- Optional
                 Duration = 5 -- Set to nil to make the notification not disappear
@@ -6801,7 +6801,7 @@ spawn(function()
         elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=16137232629" then
             Hop()
             Fluent:Notify({
-                Title = "YTB: Zuesz Hub",
+                Title = "31th3",
                 Content = "Hop...",
                 SubContent = "", -- Optional
                 Duration = 5 -- Set to nil to make the notification not disappear
