@@ -1,11 +1,17 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = ".gg/_31th3", -- Required
+	Text = "Thanks You Use.", -- Required
+	Icon = "rbxassetid://4483345998" -- Optional
+})
+
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 local Window = Fluent:CreateWindow({
     Title = "31th3 Hub | Blox Fruits",
-    SubTitle = "Beta Version",
+    SubTitle = ".gg/31th3",
     TabWidth = 170,
-    Size = UDim2.fromOffset(495, 385),
+    Size = UDim2.fromOffset(515, 405),
     Acrylic = true,
     Theme = "Purple Flower",
     MinimizeKey = Enum.KeyCode.End
@@ -6962,7 +6968,7 @@ end)
 Options.ToggleC:SetValue(true)
 
 
-local ToggleV = Tabs.Setting:AddToggle("ToggleV", {Title = "",Description = "", Default = true })
+local ToggleV = Tabs.Setting:AddToggle("ToggleV", {Title = "Kĩ Năng V",Description = "", Default = true })
 ToggleV:OnChanged(function(Value)
     SkillV = Value
 end)
