@@ -1,9 +1,3 @@
-game.StarterGui:SetCore("SendNotification", {
-                        Title = "By 31th3",
-                        Text = "Done😎",
-                        Duration = 10,
-                        Button1 = "Oki!"
-                    })
 local ShiftlockStarterGui = Instance.new("ScreenGui")
 local ImageButton = Instance.new("ImageButton")
 
